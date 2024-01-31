@@ -14,3 +14,29 @@ Eg. Predicting rainfall, predicting revenue, predicting marks etc.
 2. Classification Tree 
 For discrete categorical target variables 
 Eg. Predicting High or Low, Win or Loss, Healthy or Unhealthy etc 
+
+## Ensemble Methods
+
+1. Bagging 
+2. Random Forest 
+3. Boosting
+   
+Problem with normal decision tree 
+• High Variance
+
+## Bagging
+
+1. While bagging pruning is not done, Full length trees are grown 
+2. Individual trees have high variance and low bias, averaging reduces the 
+variance 
+3. In regression, we take the average of predicted values 
+4. In Classification, we take majority vote i.e. most predicted class will be 
+taken as the final prediction
+
+## Boosting
+
+Process of turning a weak learner into a strong learner 
+1. Gradient Boost 
+2. Ada Boost 
+3. XG Boost
+
